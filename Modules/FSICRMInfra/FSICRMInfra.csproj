@@ -7,10 +7,11 @@
     <ModuleName>FSICRMInfra</ModuleName>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.CrmSdk.CoreAssemblies" Version="$(CrmSdk_CoreAssemblies_PackageVersion)" GeneratePathProperty="true" />
-    <PackageReference Include="Microsoft.CrmSdk.Workflow" Version="$(CrmSdk_Workflow_PackageVersion)" GeneratePathProperty="true" />
-    <PackageReference Include="Newtonsoft.Json" Version="$(Newtonsoft_Json_PackageVersion)" GeneratePathProperty="true" />
-	  <PackageReference Include="Microsoft.CrmSdk.XrmTooling.CoreAssembly" Version="$(CrmSdk_XrmTooling_CoreAssembly_PackageVersion)" GeneratePathProperty="true" />
-	  <PackageReference Include="Microsoft.CrmSdk.XrmTooling.PackageDeployment" Version="$(CrmSdk_XrmTooling_PackageDeployment_PackageVersion)" GeneratePathProperty="true" />
+    <PackageReference Include="Microsoft.CrmSdk.CoreAssemblies" Version="9.0.2.56" GeneratePathProperty="true" />
+    <PackageReference Include="Microsoft.CrmSdk.Workflow" Version="9.0.2.56" GeneratePathProperty="true" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" GeneratePathProperty="true" />
+	  <PackageReference Include="Microsoft.CrmSdk.XrmTooling.CoreAssembly" Version="9.1.1.65" GeneratePathProperty="true" />
+	  <PackageReference Include="Microsoft.CrmSdk.XrmTooling.PackageDeployment" Version="9.1.0.131" GeneratePathProperty="true" />
+	  <PackageReference Include="System.Text.Json" Version="6.0.10" />
   </ItemGroup>
 </Project>

@@ -5,5 +5,17 @@
 		<RootNamespace>Microsoft.CloudForFSI.OnboardingEssentials.Plugins</RootNamespace>
 		<AssemblyName>Microsoft.CloudForFSI.OnboardingEssentials.Plugins</AssemblyName>
 		<ModuleName>Onboarding-Essentials</ModuleName>
-	</PropertyGroup>	
+	</PropertyGroup>
+	<ItemGroup>
+	  <PackageReference Include="System.Text.Json" Version="6.0.10" />
+	</ItemGroup>
+	<ItemGroup>
+	  <PackageReference Update="Microsoft.CrmSdk.CoreAssemblies" Version="9.0.2.56" />
+	</ItemGroup>
+	<ItemGroup>
+	  <PackageReference Update="Microsoft.CrmSdk.Workflow" Version="9.0.2.56" />
+	</ItemGroup>
+	<ItemGroup>
+	  <PackageReference Update="Newtonsoft.Json" Version="13.0.3" />
+	</ItemGroup>	
 </Project>

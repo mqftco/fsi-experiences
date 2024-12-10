@@ -6,4 +6,16 @@
 		<AssemblyName>Microsoft.CloudForFSI.LoanOnboardingStarterRibbon.Plugins</AssemblyName>
 		<ModuleName>Loan-Onboarding</ModuleName>
 	</PropertyGroup>
+	<ItemGroup>
+	  <PackageReference Include="System.Text.Json" Version="6.0.10" />
+	</ItemGroup>
+	<ItemGroup>
+	  <PackageReference Update="Microsoft.CrmSdk.CoreAssemblies" Version="9.0.2.56" />
+	</ItemGroup>
+	<ItemGroup>
+	  <PackageReference Update="Microsoft.CrmSdk.Workflow" Version="9.0.2.56" />
+	</ItemGroup>
+	<ItemGroup>
+	  <PackageReference Update="Newtonsoft.Json" Version="13.0.3" />
+	</ItemGroup>
 </Project>

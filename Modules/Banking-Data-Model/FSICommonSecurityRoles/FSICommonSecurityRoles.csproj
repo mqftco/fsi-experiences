@@ -4,4 +4,26 @@
     <DynamicsProjectType>Solution</DynamicsProjectType>
     <ModuleName>Banking-Data-Model</ModuleName>
   </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="System.Text.Json" Version="6.0.10" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Update="Microsoft.CrmSdk.CoreAssemblies" Version="9.0.2.56" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Update="Microsoft.CrmSdk.CoreTools" Version="9.1.0.179" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Update="Microsoft.CrmSdk.Deployment" Version="9.0.2.34" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Update="Microsoft.CrmSdk.Workflow" Version="9.0.2.56" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Update="Microsoft.CrmSdk.XrmTooling.CoreAssembly" Version="9.1.1.65" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Update="Microsoft.CrmSdk.XrmTooling.PackageDeployment" Version="9.1.0.131" />
+  </ItemGroup>
 </Project>

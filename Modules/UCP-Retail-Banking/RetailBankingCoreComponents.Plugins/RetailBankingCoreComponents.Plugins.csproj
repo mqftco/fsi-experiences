@@ -12,6 +12,9 @@
     <None Remove="Contact\**" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="System.Text.Json" Version="6.0.10" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Update="Groups\FetchXmlResources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
@@ -24,5 +27,14 @@
       <LastGenOutput>FetchXmlResources.Designer.cs</LastGenOutput>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Update="Microsoft.CrmSdk.CoreAssemblies" Version="9.0.2.56" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Update="Microsoft.CrmSdk.Workflow" Version="9.0.2.56" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Update="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 </Project>
