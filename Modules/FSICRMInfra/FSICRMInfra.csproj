@@ -12,6 +12,6 @@
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" GeneratePathProperty="true" />
 	  <PackageReference Include="Microsoft.CrmSdk.XrmTooling.CoreAssembly" Version="9.1.1.65" GeneratePathProperty="true" />
 	  <PackageReference Include="Microsoft.CrmSdk.XrmTooling.PackageDeployment" Version="9.1.0.131" GeneratePathProperty="true" />
-	  <PackageReference Include="System.Text.Json" Version="6.0.10" />
+	  <PackageReference Include="System.Text.Json" Version="9.0.0" />
   </ItemGroup>
 </Project>

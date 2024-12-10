@@ -42,7 +42,8 @@
     "dependencies": {
         "@fluentui/react": "8.15.0",
         "@fsi/core-components": "1.0.0",
-        "@fsi/onboarding-application": "1.0.0"
+        "@fsi/onboarding-application": "1.0.0",
+        "@fsi/queue": "file:"
     },
     "peerDependencies": {
         "react": ">=16.8.0 <18.0.0",

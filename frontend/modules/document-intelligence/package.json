@@ -41,7 +41,8 @@
     },
     "dependencies": {
         "@fluentui/react": "8.15.0",
-        "@fsi/core-components": "1.0.0"
+        "@fsi/core-components": "1.0.0",
+        "@fsi/document-intelligence": "file:"
     },
     "peerDependencies": {
         "react": ">=16.8.0 <18.0.0",

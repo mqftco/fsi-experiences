@@ -7,7 +7,7 @@
 		<ModuleName>Banking-Data-Model</ModuleName>
 	</PropertyGroup>
 	<ItemGroup>
-	  <PackageReference Include="System.Text.Json" Version="6.0.10" />
+	  <PackageReference Include="System.Text.Json" Version="9.0.0" />
 	</ItemGroup>
 	<ItemGroup>
 	  <PackageReference Update="Microsoft.CrmSdk.CoreAssemblies" Version="9.0.2.56" />

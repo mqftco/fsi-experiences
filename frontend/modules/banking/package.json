@@ -41,6 +41,7 @@
     },
     "dependencies": {
         "@fluentui/react": "8.15.0",
+        "@fsi/banking": "file:",
         "@fsi/core-components": "1.0.0",
         "@fsi/milestones": "1.0.0",
         "date-fns": "^2.29.3",

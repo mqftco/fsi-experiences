@@ -24,7 +24,8 @@
         "typescript": "^4.1.3"
     },
     "dependencies": {
-        "@fsi/core-components": "1.0.0"
+        "@fsi/core-components": "1.0.0",
+        "@fsi/pcf-common": "file:"
     },
     "peerDependencies": {
         "react": ">=16.8.0 <18.0.0",

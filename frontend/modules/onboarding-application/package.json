@@ -42,10 +42,11 @@
     "dependencies": {
         "@fluentui/react": "8.15.0",
         "@fsi/core-components": "1.0.0",
+        "@fsi/onboarding-application": "file:",
         "@fsi/pcf-common": "1.0.0",
+        "date-fns": "^2.17.0",
         "react-hook-form": "^7.20.2",
-        "react-resize-detector": "^6.6.5",
-        "date-fns": "^2.17.0"
+        "react-resize-detector": "^6.6.5"
     },
     "peerDependencies": {
         "react": ">=16.8.0 <18.0.0",
